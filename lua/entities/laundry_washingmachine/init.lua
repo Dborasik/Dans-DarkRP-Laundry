@@ -1,10 +1,3 @@
-//////////////////////////////////////////////////////////////////////////////
-// Thanks to Aspect for helping me out with this particular entity :)       //
-// It is now much more cleaner, optimized, and overall better.              //
-//                                                                          //
-// - Dborasik (Dan)                                                         //
-//////////////////////////////////////////////////////////////////////////////
-
 AddCSLuaFile("cl_init.lua")
 AddCSLuaFile("shared.lua")
 include("shared.lua")
