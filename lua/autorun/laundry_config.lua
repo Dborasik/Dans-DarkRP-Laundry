@@ -4,9 +4,6 @@ LaundryConfig = {}
 //                                                                                                               //
 // Gmail: Dborasik@gmail.com                                                                                     //
 // Discord: Dborasik#8092                                                                                        //
-//                                                                                                               //
-// NOTE:                                                                                                         //
-// Some of the materials used in this system may only be on the Prime Nation PrisonRP Content Pack!              //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Main Settings //
