@@ -2,7 +2,7 @@ LaundryConfig = {}
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // This simple laundry system was created by Dan, feel free to get in contact with me by using the info below:   //
 //                                                                                                               //
-// Gmail: Dborasik@gmail.com                                                                                     //                                                                                                               //
+// Gmail: Dborasik@gmail.com                                                                                     //
 // Discord: Dborasik#8092                                                                                        //
 //                                                                                                               //
 // NOTE:                                                                                                         //
