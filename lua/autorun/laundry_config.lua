@@ -1,10 +1,9 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// This simple laundry system was created by Dborasik. Please beware, this project was never finished and may //
+// not be in a totally usable state. You are free to re-upload and edit this addon at your discretion.        //
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 LaundryConfig = {}
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// This simple laundry system was created by Dan, feel free to get in contact with me by using the info below:   //
-//                                                                                                               //
-// Gmail: Dborasik@gmail.com                                                                                     //
-// Discord: Dborasik#8092                                                                                        //
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Main Settings //
 LaundryConfig.Payment = 100 -- The amount of money a person recieves for placing clean laundry into a bin.
