@@ -1,9 +1,9 @@
-include("shared.lua")
+include("shared.lua");
 
 function ENT:Initialize()
     -- Wow, pretty empty in here..
 end
 
 function ENT:Draw()
-    self:DrawModel()
+    self:DrawModel();
 end

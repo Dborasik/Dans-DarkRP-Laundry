@@ -1,7 +1,7 @@
-AddCSLuaFile("cl_init.lua")
-AddCSLuaFile("shared.lua")
-include("shared.lua")
-include("autorun/laundry_config.lua") -- Include the config file. There are other ways to do this, but this one has proved to be the easiest.
+AddCSLuaFile("cl_init.lua");
+AddCSLuaFile("shared.lua");
+include("shared.lua");
+include("autorun/laundry_config.lua"); -- Include the config file. There are other ways to do this, but this one has proved to be the easiest.
 
 function ENT:Initialize()
     self:SetModel("models/props_wasteland/laundry_basket001.mdl"); -- This is the model that the entity will use.
@@ -30,6 +30,6 @@ function ENT:Use(activator)
         self:EmitSound("buttons/lever1.wav");
 
         self.CanUse = false
-        timer.Simple(LaundryConfig.DispenserCooldown, function() self.CanUse = true end) -- The cooldown is defined within the Config file.
-    end
-end
+        timer.Simple(LaundryConfig.DispenserCooldown, function() self.CanUse = true end); -- The cooldown is defined within the Config file.
+    end;
+end;

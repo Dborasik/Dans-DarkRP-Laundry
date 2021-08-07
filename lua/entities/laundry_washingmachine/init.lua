@@ -1,7 +1,7 @@
-AddCSLuaFile("cl_init.lua")
-AddCSLuaFile("shared.lua")
-include("shared.lua")
-include("autorun/laundry_config.lua") -- Include the config file. There are other ways to do this, but this one has proved to be the easiest.
+AddCSLuaFile("cl_init.lua");
+AddCSLuaFile("shared.lua");
+include("shared.lua");
+include("autorun/laundry_config.lua"); -- Include the config file. There are other ways to do this, but this one has proved to be the easiest.
 
 -- Called when the entity should initialize.
 function ENT:Initialize()
@@ -34,7 +34,7 @@ function ENT:StartTouch(ent)
         local entOwner = ent:GetOwner();
 
         self:EmitSound("ambient/machines/thumper_amb.wav");
-        ent:Remove()
+        ent:Remove();
         
         self.laundry:SetNoDraw(false);
         
